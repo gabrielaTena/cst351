@@ -12,6 +12,12 @@ body{
 }
 h2{
   font-weight: bold;
+  font-size: 50px;
+  padding: 25px;
+  word-break: break-all;
+  text-align: center;
+  color: #5a7684;
+  margin: 30px;
 }
 .topnav {
   overflow: hidden;
@@ -67,6 +73,48 @@ input[type=submit]{
   border-radius: 5px;
   background-color: #eaeaea;
   padding: 40px;
-  margin: 10% 10%;
+  margin: 5% 10%;
   border: solid #5a7684;
 }
+  .social{
+    margin:auto;
+    float: right;
+    padding: 5px;
+  }
+    .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }

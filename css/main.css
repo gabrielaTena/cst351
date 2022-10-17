@@ -11,26 +11,76 @@ body{
   background-color: #f7f9fb;
 }
 h1{
-  
+
 }
 
 .main{
-  float:left;
+  margin:auto;
   width: 60%;
-  padding-left:20px;
+  padding: 10px;
+  font-weight: 800;
+  font-weight: lighter;
+}
+.main2{
+  font-family: 'Playfair Display', serif;
+  margin:auto;
+  padding: 20px;
+
+}
+    .intro{
+      padding: 5%;
+      border: solid #f0f0f0 10px;
+      margin: 1%;
+      background-color: #5a768457;
+    }
+
+    img{
+      float:right;
+      width: 150px;
+      margin: 10px;
+    }
+
+  .container{
+    padding: 120px;
+    margin: 5%;
+    line-height: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-.right{
-  flex-basis: 70%;
-  order: 2;
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
-
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
 .topnav {
   overflow: hidden;
